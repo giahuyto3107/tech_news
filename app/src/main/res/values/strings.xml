@@ -1,3 +1,129 @@
 <resources>
-    <string name="app_name">tech_news</string>
+    <string name="app_name">Signal</string>
+    <string name="app_tagline">Signal for HN</string>
+    <string name="app_version">Signal for HN · Version 1.0</string>
+
+    <!-- Primary navigation -->
+    <string name="nav_feeds">Feeds</string>
+    <string name="nav_saved">Saved</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_settings">Settings</string>
+    <string name="primary_navigation">Primary navigation</string>
+
+    <!-- Shared actions and accessibility -->
+    <string name="action_back_to_feeds">Back to feeds</string>
+    <string name="action_refresh">Refresh feed</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_save_story">Save story</string>
+    <string name="action_remove_bookmark">Remove bookmark</string>
+    <string name="action_share_story">Share story</string>
+    <string name="action_open_story">Open %1$s</string>
+    <string name="action_open_article">Open article</string>
+    <string name="action_clear_search">Clear search</string>
+    <string name="action_clear_history">Clear history</string>
+    <string name="action_collapse_comment">Collapse comment</string>
+    <string name="action_load_more_comments">Load more comments</string>
+    <string name="action_undo">Undo</string>
+    <string name="state_unread">Unread</string>
+    <string name="state_offline">Offline</string>
+
+    <!-- Feeds -->
+    <string name="feeds_eyebrow">YOUR DAILY BRIEF</string>
+    <string name="feeds_title">Top stories</string>
+    <string name="last_updated">Last updated today, 10:42 AM</string>
+    <string name="offline_title">You’re offline</string>
+    <string name="offline_message">Showing stories saved on this device</string>
+    <string name="tab_top">Top</string>
+    <string name="tab_new">New</string>
+    <string name="tab_best">Best</string>
+    <string name="tab_ask">Ask</string>
+    <string name="tab_show">Show</string>
+    <string name="feed_source">%1$s on Hacker News</string>
+    <plurals name="cached_story_count">
+        <item quantity="one">%d cached</item>
+        <item quantity="other">%d cached</item>
+    </plurals>
+    <string name="checking_for_stories">Checking for new stories…</string>
+    <string name="all_caught_up">You’re all caught up</string>
+    <string name="points_count">%1$d points</string>
+    <string name="comments_count">%1$d comments</string>
+    <string name="story_author">by %1$s</string>
+    <string name="time_ago">%1$s ago</string>
+
+    <!-- Story detail and comments -->
+    <string name="story_title">Story</string>
+    <string name="discussion_eyebrow">DISCUSSION</string>
+    <string name="sort_best">Best</string>
+
+    <!-- Saved -->
+    <string name="saved_eyebrow">YOUR LIBRARY</string>
+    <string name="saved_title">Saved</string>
+    <string name="saved_subtitle">Available wherever you go</string>
+    <string name="sort_recently_saved">Recently saved</string>
+    <string name="sort_score">Score</string>
+    <plurals name="story_count">
+        <item quantity="one">%d story</item>
+        <item quantity="other">%d stories</item>
+    </plurals>
+    <string name="empty_saved_title">Nothing saved yet</string>
+    <string name="empty_saved_message">Bookmark stories to keep them available offline.</string>
+    <string name="story_removed">Story removed</string>
+
+    <!-- Search -->
+    <string name="search_eyebrow">ON THIS DEVICE</string>
+    <string name="search_title">Search</string>
+    <string name="search_hint">Search titles and domains</string>
+    <string name="recent_searches">Recent searches</string>
+    <plurals name="search_result_count">
+        <item quantity="one">%d result</item>
+        <item quantity="other">%d results</item>
+    </plurals>
+    <string name="ranked_by_relevance">Ranked by relevance</string>
+    <string name="empty_search_title">No cached stories found</string>
+    <string name="empty_search_message">Try a different title, topic, or domain.</string>
+    <string name="recent_search_local_first">local-first</string>
+    <string name="recent_search_postgres">postgres</string>
+    <string name="recent_search_observability">observability</string>
+
+    <!-- Settings: appearance -->
+    <string name="settings_eyebrow">MAKE IT YOURS</string>
+    <string name="settings_title">Settings</string>
+    <string name="appearance_title">Appearance</string>
+    <string name="theme_title">Theme</string>
+    <string name="theme_description">Choose how Signal looks</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="dynamic_color_title">Dynamic color</string>
+    <string name="dynamic_color_description">Use colors from your wallpaper</string>
+
+    <!-- Settings: prefetch -->
+    <string name="prefetch_section_title">Background prefetch</string>
+    <string name="prefetch_title">Prefetch stories</string>
+    <string name="prefetch_description">Keep your feed ready offline</string>
+    <string name="wifi_only_title">Wi-Fi only</string>
+    <string name="wifi_only_description">Avoid mobile data usage</string>
+    <string name="frequency_title">Frequency</string>
+    <string name="frequency_description">How often to refresh</string>
+    <string name="frequency_hourly">Every hour</string>
+    <string name="frequency_four_hours">Every 4 hours</string>
+    <string name="frequency_twice_daily">Twice daily</string>
+    <string name="stories_per_refresh">Stories per refresh</string>
+
+    <!-- Settings: storage -->
+    <string name="storage_title">Storage</string>
+    <string name="cache_usage_title">Cache usage</string>
+    <string name="cache_usage_value">84 MB of 250 MB</string>
+    <string name="retention_period_title">Retention period</string>
+    <string name="retention_period_description">Remove old cached stories</string>
+    <string name="retention_7_days">7 days</string>
+    <string name="retention_30_days">30 days</string>
+    <string name="retention_90_days">90 days</string>
+    <string name="clear_cache">Clear cache (keeps bookmarks)</string>
+
+    <!-- Settings: browser -->
+    <string name="browser_title">Browser</string>
+    <string name="open_links_in_app">Open links in app</string>
+    <string name="browser_custom_tabs">Using in-app Custom Tabs</string>
+    <string name="browser_external">Using your external browser</string>
 </resources>
