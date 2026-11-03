@@ -1,6 +1,6 @@
-package com.example.tech_news.core.data.datasource
+package com.example.tech_news.core.item.data.datasource
 
-import com.example.tech_news.core.data.model.Item
+import com.example.tech_news.core.item.data.model.Item
 import retrofit2.http.GET
 import retrofit2.http.Path
 

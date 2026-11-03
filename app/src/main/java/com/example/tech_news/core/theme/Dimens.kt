@@ -6,6 +6,7 @@ import androidx.compose.ui.unit.dp
 
 data class TechNewsDimens(
     val spaceNone: Dp = 0.dp,
+    val space2XSmall: Dp = 2.dp,
     val spaceExtraSmall: Dp = 4.dp,
     val spaceSmall: Dp = 8.dp,
     val spaceMedium: Dp = 12.dp,

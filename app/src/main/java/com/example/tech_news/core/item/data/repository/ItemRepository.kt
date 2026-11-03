@@ -1,8 +1,8 @@
-package com.example.tech_news.core.data.repository
+package com.example.tech_news.core.item.data.repository
 
 import com.example.tech_news.core.constants.Endpoints
-import com.example.tech_news.core.data.datasource.ItemDataSource
-import com.example.tech_news.core.data.model.Item
+import com.example.tech_news.core.item.data.datasource.ItemDataSource
+import com.example.tech_news.core.item.data.model.Item
 import com.example.tech_news.core.network.NetworkClient
 
 class ItemRepository(
