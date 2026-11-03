@@ -11,7 +11,9 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.tech_news.core.theme.LocalTechNewsDimens
 import com.example.tech_news.core.theme.Tech_newsTheme
+import com.example.tech_news.features.feeds.ui.FeedScreen
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,9 +22,14 @@ class MainActivity : ComponentActivity() {
         setContent {
             Tech_newsTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
-                        modifier = Modifier.padding(innerPadding)
+                    FeedScreen(
+                        modifier = Modifier
+                            .fillMaxSize()
+                            .padding(innerPadding)
+                            .padding(
+                                horizontal = LocalTechNewsDimens.current.spaceMedium,
+                                vertical = LocalTechNewsDimens.current.spaceMedium,
+                            )
                     )
                 }
             }
@@ -30,18 +37,20 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-@Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
-    Text(
-        text = "Hello $name!",
-        modifier = modifier
-    )
-}
-
 @Preview(showBackground = true)
 @Composable
-fun GreetingPreview() {
+fun FeedScreenPreview() {
     Tech_newsTheme {
-        Greeting("Android")
+        Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+            FeedScreen(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .padding(innerPadding)
+                    .padding(
+                        horizontal = LocalTechNewsDimens.current.spaceMedium,
+                        vertical = LocalTechNewsDimens.current.spaceMedium,
+                    )
+            )
+        }
     }
 }

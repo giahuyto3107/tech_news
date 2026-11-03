@@ -10,6 +10,8 @@
     <string name="nav_settings">Settings</string>
     <string name="primary_navigation">Primary navigation</string>
 
+    <string name="refresh_button">Refresh button</string>
+
     <!-- Shared actions and accessibility -->
     <string name="action_back_to_feeds">Back to feeds</string>
     <string name="action_refresh">Refresh feed</string>
@@ -33,16 +35,17 @@
     <string name="last_updated">Last updated today, 10:42 AM</string>
     <string name="offline_title">You’re offline</string>
     <string name="offline_message">Showing stories saved on this device</string>
+    <!--    Online text-->
+<!--    <string name="online_title">You’re offline</string>-->
+<!--    <string name="online_message">Showing stories saved on this device</string>-->
+
     <string name="tab_top">Top</string>
     <string name="tab_new">New</string>
     <string name="tab_best">Best</string>
     <string name="tab_ask">Ask</string>
     <string name="tab_show">Show</string>
     <string name="feed_source">%1$s on Hacker News</string>
-    <plurals name="cached_story_count">
-        <item quantity="one">%d cached</item>
-        <item quantity="other">%d cached</item>
-    </plurals>
+    <string name="cached_story_count">%d cached</string>
     <string name="checking_for_stories">Checking for new stories…</string>
     <string name="all_caught_up">You’re all caught up</string>
     <string name="points_count">%1$d points</string>

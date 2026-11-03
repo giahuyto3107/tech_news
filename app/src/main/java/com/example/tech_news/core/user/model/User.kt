@@ -1,4 +1,4 @@
-package com.example.tech_news.core.data.model
+package com.example.tech_news.core.user.model
 
 import com.google.gson.annotations.SerializedName
 

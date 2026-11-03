@@ -1,7 +1,7 @@
 package com.example.tech_news
 
-import com.example.tech_news.core.data.repository.ItemRepository
-import com.example.tech_news.core.data.repository.UserRepository
+import com.example.tech_news.core.item.data.repository.ItemRepository
+import com.example.tech_news.core.user.repository.UserRepository
 import kotlinx.coroutines.runBlocking
 import org.junit.Test
 import kotlin.test.DefaultAsserter.assertNotNull
